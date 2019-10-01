@@ -29,3 +29,6 @@ The following tools and components are required:
 This project has been created by the following people:
 
 - YassinLalj-Design&Test(mohlalela@alum.us.es)
+
+- Alfonso Manuel Rodriguez Romero (AlfonsoRodriguezUS)
+
