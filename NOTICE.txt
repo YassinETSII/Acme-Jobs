@@ -28,6 +28,10 @@ The following tools and components are required:
 
 This project has been created by the following people:
 
-- YassinLalj-Design&Test(mohlalela@alum.us.es)
-- Alfonso Manuel RodrÃ­guez
-- JosÃ© Manuel Escobar
+Nombre: Yassin Lalj El Assri
+Uvus: mohlalela
+Correo académico: mohlalela@alum.us.es
+
+Nombre: Alfonso Manuel Rodríguez Romero
+Uvus: alfrodrom1
+Correo académico: alfrodrom1@alum.us.es
