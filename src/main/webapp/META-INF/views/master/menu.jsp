@@ -19,7 +19,9 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+      <acme:menu-suboption code="master.menu.anonymous.favourite-link1" action="https://www.youtube.com/watch?v=YbnIEcTPKRY/"/>         
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link2" action="https://myanimelist.net/"/>
+
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
