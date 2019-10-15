@@ -16,5 +16,37 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<!--  Shouts -->
+	
+	<bean id="shout01" class="acme.entities.shouts.Shout">
+		<property name="author" value="Yassin Lalj"/>
+		<property name="text" value="Let's goooo!"/>
+		<property name="moment" value="2019/10/12 19:21"/>
+	</bean>
+	
+	<bean id="shout02" class="acme.entities.shouts.Shout">
+		<property name="author" value="Tingle"/>
+		<property name="text" value="I want more rupees!"/>
+		<property name="moment" value="1999/05/21 14:43"/>
+	</bean>
+	
+	<bean id="shout03" class="acme.entities.shouts.Shout">
+		<property name="author" value="Joker"/>
+		<property name="text" value="How about another joke?"/>
+		<property name="moment" value="2019/10/09 22:30"/>
+	</bean>
+	
+	<bean id="shout04" class="acme.entities.shouts.Shout">
+		<property name="author" value="Kawhi Leonard"/>
+		<property name="text" value="Ahhhaaaaa!!"/>
+		<property name="moment" value="2019/01/10 11:30"/>
+	</bean>
+	
+	<bean id="shout05" class="acme.entities.shouts.Shout">
+		<property name="author" value="Jack Shephard"/>
+		<property name="text" value="What is Dharma?!"/>
+		<property name="moment" value="2007/02/27 22:56"/>
+	</bean>
 
 </beans>
