@@ -16,7 +16,8 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list readonly="true">
-	<acme:list-column code="anonymous.shout.list.label.moment" path="moment" width="20%"/>
-	<acme:list-column code="anonymous.shout.list.label.author" path="author" width="20%"/>
-	<acme:list-column code="anonymous.shout.list.label.text" path="text" width="60%"/>
+	<acme:list-column code="anonymous.bulletinlalj.list.label.event" path="event" width="20%"/>
+	<acme:list-column code="anonymous.bulletinlalj.list.label.momentOfEvent" path="momentOfEvent" width="20%"/>
+	<acme:list-column code="anonymous.bulletinlalj.list.label.location" path="location" width="20%"/>
+	<acme:list-column code="anonymous.bulletinlalj.list.label.euros" path="euros" width="20%"/>
 </acme:list>

@@ -20,6 +20,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `bulletin_lalj` (
+       `id` integer not null,
+        `version` integer not null,
+        `euros` double precision,
+        `event` varchar(255),
+        `location` varchar(255),
+        `moment_of_event` datetime(6),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
