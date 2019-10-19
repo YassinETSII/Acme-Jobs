@@ -25,8 +25,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.create" action="/anonymous/shout/create"/>
 			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.anonymous.bulletinlalj.list" action="/anonymous/bulletin-lalj/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.bulletinlalj.create" action="/anonymous/bulletin-lalj/create"/>			
+			<acme:menu-suboption code="master.menu.anonymous.laljbulletin.list" action="/anonymous/lalj-bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.laljbulletin.create" action="/anonymous/lalj-bulletin/create"/>			
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

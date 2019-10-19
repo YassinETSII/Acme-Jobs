@@ -1,5 +1,5 @@
 <%--
-- form.jsp
+- list.jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -15,12 +15,9 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<acme:form>
-	<acme:form-textbox code="anonymous.bulletinlalj.form.label.event" path="event"/>
-	<acme:form-textarea code="anonymous.bulletinlalj.form.label.momentOfEvent" path="momentOfEvent"/>
-	<acme:form-textarea code="anonymous.bulletinlalj.form.label.location" path="location"/>
-	<acme:form-textarea code="anonymous.bulletinlalj.form.label.euros" path="euros"/>
-
-	<acme:form-submit code="anonymous.bulletinlalj.form.button.create" action="/anonymous/bulletin-lalj/create"/>
-	<acme:form-return code="anonymous.bulletinlalj.form.button.return"/>
-</acme:form>
+<acme:list readonly="true">
+	<acme:list-column code="anonymous.laljbulletin.list.label.event" path="event" width="20%"/>
+	<acme:list-column code="anonymous.laljbulletin.list.label.momentOfEvent" path="momentOfEvent" width="20%"/>
+	<acme:list-column code="anonymous.laljbulletin.list.label.location" path="location" width="20%"/>
+	<acme:list-column code="anonymous.laljbulletin.list.label.euros" path="euros" width="20%"/>
+</acme:list>

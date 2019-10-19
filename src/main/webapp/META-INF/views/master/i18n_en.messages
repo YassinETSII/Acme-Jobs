@@ -34,8 +34,8 @@ master.menu.anonymous.favourite-link1 = Yassin's link
 master.menu.anonymous.favourite-link2 = Alfonso's link
 master.menu.anonymous.shout.list = List shouts
 master.menu.anonymous.shout.create = Shout!
-master.menu.anonymous.bulletinlalj.list = List Lalj's Bulletin
-master.menu.anonymous.bulletinlalj.create = Create Lalj's Bulletin
+master.menu.anonymous.laljbulletin.list = List Lalj's Bulletin
+master.menu.anonymous.laljbulletin.create = Create Lalj's Bulletin
 
 # master.menu.administrator ###################################################
 

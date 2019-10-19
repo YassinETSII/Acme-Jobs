@@ -1,37 +1,37 @@
 
-package acme.features.anonymous.bulletinlalj;
+package acme.features.anonymous.laljbulletin;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.BulletinLalj;
+import acme.entities.bulletins.LaljBulletin;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousBulletinLaljListService implements AbstractListService<Anonymous, BulletinLalj> {
+public class AnonymousLaljBulletinListService implements AbstractListService<Anonymous, LaljBulletin> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AnonymousBulletinLaljRepository repository;
+	AnonymousLaljBulletinRepository repository;
 
 
-	// AbstractListService<Anonymous, BulletinLalj> interface --------------
+	// AbstractListService<Anonymous, LaljBulletin> interface --------------
 
 	@Override
-	public boolean authorise(final Request<BulletinLalj> request) {
+	public boolean authorise(final Request<LaljBulletin> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public void unbind(final Request<BulletinLalj> request, final BulletinLalj entity, final Model model) {
+	public void unbind(final Request<LaljBulletin> request, final LaljBulletin entity, final Model model) {
 
 		assert request != null;
 		assert entity != null;
@@ -41,10 +41,10 @@ public class AnonymousBulletinLaljListService implements AbstractListService<Ano
 	}
 
 	@Override
-	public Collection<BulletinLalj> findMany(final Request<BulletinLalj> request) {
+	public Collection<LaljBulletin> findMany(final Request<LaljBulletin> request) {
 		assert request != null;
 
-		Collection<BulletinLalj> result;
+		Collection<LaljBulletin> result;
 		result = this.repository.findMany();
 
 		return result;

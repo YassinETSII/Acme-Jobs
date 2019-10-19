@@ -19,7 +19,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class BulletinLalj extends DomainEntity {
+public class LaljBulletin extends DomainEntity {
 
 	// Serialisation identifier -----------------------------------------------
 

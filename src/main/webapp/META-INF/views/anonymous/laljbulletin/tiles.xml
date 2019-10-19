@@ -18,12 +18,12 @@
 
 <tiles-definitions>
 
-	<definition name="anonymous/bulletin-lalj/form" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/bulletinlalj/form.jsp" />
+	<definition name="anonymous/lalj-bulletin/form" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/laljbulletin/form.jsp" />
 	</definition>
 	
-	<definition name="anonymous/bulletin-lalj/list" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/bulletinlalj/list.jsp" />
+	<definition name="anonymous/lalj-bulletin/list" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/laljbulletin/list.jsp" />
 	</definition>
 
 </tiles-definitions>

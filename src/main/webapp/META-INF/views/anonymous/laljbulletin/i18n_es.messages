@@ -9,15 +9,15 @@
 # they accept any liabilities with respect to them.
 
 ########################################### Feature: anonimo crea un boletin (Yassin Lalj).
-anonymous.bulletinlalj.form.label.event = Evento:
-anonymous.bulletinlalj.form.label.momentOfEvent = Fecha y hora del evento:
-anonymous.bulletinlalj.form.label.location = Localización:
-anonymous.bulletinlalj.form.label.euros = Euros:
-anonymous.bulletinlalj.form.button.create = Crear este boletin
-anonymous.bulletinlalj.form.button.return = Volver
+anonymous.laljbulletin.form.label.event = Evento:
+anonymous.laljbulletin.form.label.momentOfEvent = Fecha y hora del evento:
+anonymous.laljbulletin.form.label.location = Localización:
+anonymous.laljbulletin.form.label.euros = Euros:
+anonymous.laljbulletin.form.button.create = Crear este boletin
+anonymous.laljbulletin.form.button.return = Volver
 
 ########################################### Feature: anonimo lista boletines (Yassin Lalj).
-anonymous.bulletinlalj.list.label.event = Evento
-anonymous.bulletinlalj.list.label.momentOfEvent = Fecha y hora del evento
-anonymous.bulletinlalj.list.label.location = Localización
-anonymous.bulletinlalj.list.label.euros = Euros
+anonymous.laljbulletin.list.label.event = Evento
+anonymous.laljbulletin.list.label.momentOfEvent = Fecha y hora del evento
+anonymous.laljbulletin.list.label.location = Localización
+anonymous.laljbulletin.list.label.euros = Euros

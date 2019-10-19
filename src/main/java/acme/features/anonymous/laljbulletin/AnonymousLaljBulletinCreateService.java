@@ -1,12 +1,12 @@
 
-package acme.features.anonymous.bulletinlalj;
+package acme.features.anonymous.laljbulletin;
 
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.BulletinLalj;
+import acme.entities.bulletins.LaljBulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -14,31 +14,31 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousBulletinLaljCreateService implements AbstractCreateService<Anonymous, BulletinLalj> {
+public class AnonymousLaljBulletinCreateService implements AbstractCreateService<Anonymous, LaljBulletin> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AnonymousBulletinLaljRepository repository;
+	AnonymousLaljBulletinRepository repository;
 
 
-	// AbstractCreateService<Anonymous, BulletinLalj> interface --------------
+	// AbstractCreateService<Anonymous, LaljBulletin> interface --------------
 
 	@Override
-	public boolean authorise(final Request<BulletinLalj> request) {
+	public boolean authorise(final Request<LaljBulletin> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public BulletinLalj instantiate(final Request<BulletinLalj> request) {
+	public LaljBulletin instantiate(final Request<LaljBulletin> request) {
 		assert request != null;
 
-		BulletinLalj result;
+		LaljBulletin result;
 		Date moment = new Date(120, 3, 20, 21, 30);
 
-		result = new BulletinLalj();
+		result = new LaljBulletin();
 		result.setEvent("Going to Aquiarum from La Palmera");
 		result.setMomentOfEvent(moment);
 		result.setLocation("La Palmera");
@@ -47,7 +47,7 @@ public class AnonymousBulletinLaljCreateService implements AbstractCreateService
 	}
 
 	@Override
-	public void unbind(final Request<BulletinLalj> request, final BulletinLalj entity, final Model model) {
+	public void unbind(final Request<LaljBulletin> request, final LaljBulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -56,7 +56,7 @@ public class AnonymousBulletinLaljCreateService implements AbstractCreateService
 	}
 
 	@Override
-	public void bind(final Request<BulletinLalj> request, final BulletinLalj entity, final Errors errors) {
+	public void bind(final Request<LaljBulletin> request, final LaljBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -65,14 +65,14 @@ public class AnonymousBulletinLaljCreateService implements AbstractCreateService
 	}
 
 	@Override
-	public void validate(final Request<BulletinLalj> request, final BulletinLalj entity, final Errors errors) {
+	public void validate(final Request<LaljBulletin> request, final LaljBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
 	}
 
 	@Override
-	public void create(final Request<BulletinLalj> request, final BulletinLalj entity) {
+	public void create(final Request<LaljBulletin> request, final LaljBulletin entity) {
 		assert request != null;
 		assert entity != null;
 
