@@ -30,11 +30,14 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-
 master.menu.anonymous.favourite-link1 = Yassin's link 
 master.menu.anonymous.favourite-link2 = Alfonso's link
-master.menu.anonymous.shout-list = List shouts
-master.menu.anonymous.shout-create = Shout!
+master.menu.anonymous.shout.list = List shouts
+master.menu.anonymous.shout.create = Shout!
+master.menu.anonymous.laljbulletin.list = List Lalj's Bulletin
+master.menu.anonymous.laljbulletin.create = Create Lalj's Bulletin
+master.menu.anonymous.rodriguezbulletin.list = List Rodriguez's Bulletin
+master.menu.anonymous.rodriguezbulletin.create = Create Rodriguez's Bulletin
 
 # master.menu.administrator ###################################################
 

@@ -32,8 +32,12 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link1 = Enlace de Yassin
 master.menu.anonymous.favourite-link2 = Enlace de Alfonso
-master.menu.anonymous.shout-list = Lista de gritos
-master.menu.anonymous.shout-create = Gritar
+master.menu.anonymous.shout.list = Listar gritos
+master.menu.anonymous.shout.create = Gritar
+master.menu.anonymous.laljbulletin.list = Listar Boletin de Lalj
+master.menu.anonymous.laljbulletin.create = Crear Boletin de Lalj
+master.menu.anonymous.rodriguezbulletin.list = Listar Boletin de Rodriguez
+master.menu.anonymous.rodriguezbulletin.create = Crear Boletin de Rodriguez
 
 # master.menu.administrator ###################################################
 
