@@ -36,6 +36,8 @@ master.menu.anonymous.shout.list = Listar gritos
 master.menu.anonymous.shout.create = Gritar
 master.menu.anonymous.laljbulletin.list = Listar Boletin de Lalj
 master.menu.anonymous.laljbulletin.create = Crear Boletin de Lalj
+master.menu.anonymous.rodriguezbulletin.list = Listar Boletin de Rodriguez
+master.menu.anonymous.rodriguezbulletin.create = Crear Boletin de Rodriguez
 
 # master.menu.administrator ###################################################
 

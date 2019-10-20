@@ -78,4 +78,28 @@
 		<property name="location" value="Cartuja Arena"/>
 		<property name="euros" value="60"/>
 	</bean>
+	
+	<bean id="rodriguezbulletin01" class="acme.entities.bulletins.RodriguezBulletin">
+		<property name="informer" value="Mike Oldfield"/>
+		<property name="type" value="XSS"/>
+		<property name="bulletinMoment" value="2017/02/05 20:00"/>
+	</bean>
+	
+	<bean id="rodriguezbulletin02" class="acme.entities.bulletins.RodriguezBulletin">
+		<property name="informer" value="Robert Stevens"/>
+		<property name="type" value="DDOS"/>
+		<property name="bulletinMoment" value="2018/01/20 21:00"/>
+	</bean>
+	
+	<bean id="rodriguezbulletin03" class="acme.entities.bulletins.RodriguezBulletin">
+		<property name="informer" value="Benny Hill"/>
+		<property name="type" value="SQL Injection"/>
+		<property name="bulletinMoment" value="2016/05/02 22:30"/>
+	</bean>
+	
+	<bean id="rodriguezbulletin04" class="acme.entities.bulletins.RodriguezBulletin">
+		<property name="informer" value="John Ramírez"/>
+		<property name="type" value="XSS"/>
+		<property name="bulletinMoment" value="2015/04/17 18:00"/>
+	</bean>
 </beans>
