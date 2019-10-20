@@ -15,6 +15,10 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
+<div class="jumbotron">
+	<acme:message code="anonymous.laljbulletin.form.initialMessage"/>
+</div>
+
 <acme:form>
 	<acme:form-textbox code="anonymous.laljbulletin.form.label.event" path="event"/>
 	<acme:form-textarea code="anonymous.laljbulletin.form.label.momentOfEvent" path="momentOfEvent"/>

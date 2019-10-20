@@ -14,15 +14,15 @@ anonymous.rodriguezBulletin.form.label.type = Attack Type:
 anonymous.rodriguezBulletin.form.button.create = Create Bulletin
 anonymous.rodriguezBulletin.form.button.return = Return
 
+anonymous.rodriguezBulletin.form.initialMessage = \
+	In this form you can create an informative bulletin about \
+	a detected attack on the system.
+	
 ########################################### Feature: anonymous lists bulletins (Alfonso Rodríguez).
 anonymous.rodriguezBulletin.list.label.bulletinMoment = Moment
 anonymous.rodriguezBulletin.list.label.informer = Informer
 anonymous.rodriguezBulletin.list.label.type = Attack Type
 
-anonymous.rodriguezBulletin.form.initialMessage = \
-	In this form you can create an informative bulletin about \
-	a detected attack on the system.
-	
 anonymous.rodriguezBulletin.list.initialMessage = \
 	Here is the list of bulletins about attacks \
 	detected in the system.

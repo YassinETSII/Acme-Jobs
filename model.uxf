@@ -317,13 +317,13 @@ Shout
     <coordinates>
       <x>234</x>
       <y>639</y>
-      <w>261</w>
+      <w>387</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>LaljBulletin
 --
 + event: String {NotBlank}
-+ momentOfEvent: Date {NotNull}{Future}
++ momentOfEvent: Date {NotNull}{Temporal(TIMESTAMP), Future}
 + location: String {NotBlank}
 + euros: Double {NotNull}{Min(0)}{Digits(3,2)}
 </panel_attributes>
@@ -343,16 +343,16 @@ Shout
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>531</x>
+      <x>639</x>
       <y>639</y>
-      <w>261</w>
+      <w>369</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>RodriguezBulletin
 --
 + informer: String {NotBlank}
 + type: String {NotBlank}
-+ bulletinMoment: Date {NotNull}{Past}
++ bulletinMoment: Date {NotNull}{Temporal(TIMESTAMP), Past} 
 
 </panel_attributes>
     <additional_attributes/>
